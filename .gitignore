@@ -6,3 +6,19 @@ gui_test.log
 
 # mac:
 **/.DS_Store
+
+
+### SCons ###
+# Created by https://www.toptal.com/developers/gitignore/api/scons
+# for projects that use SCons for building: http://http://www.scons.org/
+.sconsign*
+# When configure fails, SCons may output:
+.sconf_temp
+# our chosen default output dir
+scons-build
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

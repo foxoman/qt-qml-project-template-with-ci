@@ -18,6 +18,8 @@ cd $DIR  # enter this script's directory. (in case called from root of repositor
 
 $DIR/tools/ci/version.sh
 
+python3 $(which scons)
+
 source $DIR/path_to_qmake.bash
 
 pushd build >& /dev/null

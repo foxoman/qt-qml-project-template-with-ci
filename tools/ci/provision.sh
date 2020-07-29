@@ -66,6 +66,7 @@ sudo apt-get --assume-yes install \
   p7zip-full \
   psmisc \
   python3 \
+  scons \
   unzip \
   wget \
   xvfb \
